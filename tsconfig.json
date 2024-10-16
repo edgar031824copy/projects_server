@@ -10,7 +10,7 @@
     "declaration": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "lib": ["ESNext"]
+    "lib": ["ESNext", "dom"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
