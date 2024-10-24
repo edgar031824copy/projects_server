@@ -1,6 +1,6 @@
-import globals from "globals"
-import typescriptEslintPlugin from "@typescript-eslint/eslint-plugin"
-import typescriptEslintParser from "@typescript-eslint/parser"
+import globals from "globals";
+import typescriptEslintPlugin from "@typescript-eslint/eslint-plugin";
+import typescriptEslintParser from "@typescript-eslint/parser";
 
 const config = [
   {
@@ -24,9 +24,10 @@ const config = [
       "@typescript-eslint/adjacent-overload-signatures": "error",
       "@typescript-eslint/array-type": "error",
       "no-var": "error",
+      "@typescript-eslint/consistent-type-imports": "error",
     },
     ignores: ["node_modules", "dist"],
   },
-]
+];
 
-export default config
+export default config;

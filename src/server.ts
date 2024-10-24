@@ -1,10 +1,7 @@
 import express from "express";
 import cors from "cors";
-import projectsRouter from "./routes/projects";
-import dotenv from "dotenv";
+import projectsRouter from "./routes/projectRoutes";
 import { connectDb } from "./config/db";
-
-dotenv.config();
 
 connectDb();
 
